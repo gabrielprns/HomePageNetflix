@@ -10,6 +10,7 @@
 }
 
 body{
+  color: #fff;
   background: var(--preto);
   font-family: 'Times New Roman', Times, serif;
 }
@@ -37,4 +38,47 @@ header nav a{
 
 header nav a:hover{
   color: #fff;
+}
+
+.filme-principal{
+  font-size: 16px;
+  background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0,.50)100%), url('../img/T_R.jpg');
+  height: 70vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+} 
+
+.filme-principal .descricao{
+  margin-left: 15px;
+  margin-bottom: 40px;
+}
+
+.titulo{
+  margin-top: 15%;
+  margin-left: 15px;
+  font-size: 40px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.botao{
+  margin-left: 15px;
+  background-color: rgba(0,0,0,.50);
+  border: none;
+  color: var(--vermelho);
+  padding: 15px 30px;
+  margin-right: 15px;
+  font-size: 12px;
+  cursor: pointer;
+  transition: .3s ease all;
+}
+
+.botao:hover{
+  color: #fff;
+  background-color: var(--vermelho);
+}
+.botao i{
+  margin-right: 8px;
 }
